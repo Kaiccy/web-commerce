@@ -1,0 +1,102 @@
+
+/*内容部分的宽度*/
+.comWidth{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightyellow;
+}
+
+.topBar{
+	height: 31px;
+	background-color: #f7f7f7;
+	line-height: 31px;
+}
+
+.collection{
+	background: url(../image/icon/shoucang.png) left center no-repeat;
+	padding-left: 25px;
+	font-weight: bold;
+}
+
+.leftArea{
+	float: left;
+}
+
+.rightArea{
+	float: right;
+}
+
+.logoBar{
+	height: 85px;
+	background-color: #1d7ad9;
+	/*line-height: 85px;*/
+}
+
+/*logo*/
+.search_box{
+	width: 430px;
+	padding-top: 24px;
+	padding-left: 185px;
+}
+.search_text{
+	width: 350px;
+	height: 35px;
+	padding: 0 5px;
+}
+.search_btn{
+	width: 70px;
+	height: 35px;
+	font-family: "MicrosoftYaHei","微软雅黑";
+	background-color: #ff8c00;
+	color: #fff;
+}
+
+/*购物车*/
+.shopCar{
+	width: 145px;
+	height: 35px;
+	background-color: #ff8c00;
+	margin-top: 23px;
+}
+.shopText{
+	font: 14px/35px "MicrosoftYaHei","微软雅黑"; /*35px是行高*/
+	color: #fff;
+	height: 100%;
+	width: 87px;
+	border-right: #e27a00 solid 1px;
+	background-image: url(..image/icon/shoucang.png) 10px center no-repeat;
+	text-indent: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
