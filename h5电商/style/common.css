@@ -4,7 +4,7 @@
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: lightyellow;
+	/*background-color: lightyellow;*/
 }
 
 .topBar{
@@ -58,28 +58,118 @@
 	height: 35px;
 	background-color: #ff8c00;
 	margin-top: 23px;
+	color: #fff;
 }
 .shopText{
 	font: 14px/35px "MicrosoftYaHei","微软雅黑"; /*35px是行高*/
-	color: #fff;
 	height: 100%;
 	width: 87px;
 	border-right: #e27a00 solid 1px;
-	background-image: url(..image/icon/shoucang.png) 10px center no-repeat;
-	text-indent: 40px;
+	background: url(..image/icon/shoucang.png) 10px center no-repeat;
+	/*text-indent: 40px;*/
+	padding-left: 40px;
+	padding-right: 5px;
 }
 
+.shopNum{
+	padding-left: 15px;
+}
 
+.logo a img{
+	width: 65px;
+	margin-top: 15px;
+}
 
+/*navBox*/
+.navBox{
+	height: 35px;
+	background-color: #1369c0;
+	color: white;
+}
 
+.shopClass{
+	width: 190px;
+	position: relative;
+}
 
+.shopClass h3{
+	line-height: 35px;
+	text-align: center;
+}
 
+.shopClass i{
+	width: 15px;
+	height:7px;
+	overflow: hidden;
+	background:url(../image/icon/down.png) left center no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+ 
+.nav,.shopClass{
+	font-family: "MicrosoftYaHei","微软雅黑";
+}
 
+.nav{
+	line-height: 35px;
+}
 
+.nav li{
+	float: left;
+}
 
+.nav a{
+	height: 35px;
+	display: inline-block;
+	padding: 0 35px;
+	color: #fff;
+}
 
+.nav .active{
+	background-color: #4593fd;
+}
 
+/*商品弹出列表*/
+.shopClass_show{
+	background-color: #4593fd;
+	position: absolute;
+	left: 0;
+	/*top: 35;*/
+	width: 100%;
+}
 
+.shopClass_item{
+	padding: 10px 14px;
+	border-bottom: #3487f2 solid 1px;
+	border-top: #5aa1ff solid 1px;
+}
+
+.shopClass_item .b{
+	font:bold 14px/1 "MicrosoftYaHei","微软雅黑";
+	/*color: white;*/
+}
+
+.shopClass_item a{
+	color: #fff;
+}
+
+.shopClass_item dt{
+	height: 24px;
+}
+
+.shopClass_item .aLink{
+	width: 48px;
+	height: 20px;
+	background-color: blue;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.shopClass_item dt{
+	background: url(../image/icon/rightArrow.png) right center no-repeat;
+}
 
 
 
