@@ -29,3 +29,10 @@ a{
 /*左浮动，右浮动*/
 .fl{float: left;}
 .fr{float: right;}
+
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
