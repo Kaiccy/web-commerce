@@ -468,6 +468,161 @@
 
 
 
+/*产品分类*/
+.products .leftArea{
+	width: 185px;
+}
+
+.products .rightArea{
+	width: 810px;
+}
+
+.leftNav{
+	background-color: #f3f3f3;
+	border: #d7d7d7 solid 1px;
+}
+
+.navTitle{
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	border-bottom: #d7d7d7 solid 1px;
+	text-align: center;
+}
+
+.nav_cont{
+	padding: 0 18px 14px;
+	border-bottom: #d7d7d7 dotted 1px;
+	margin-bottom: -1px;  /*解决最后一个框的底部没有虚线的问题，虚线与父框中的底边实线重合*/
+}
+
+.nav_cont h3{
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.navCont_list{
+	line-height: 25px;
+}
+
+.navCont_list li{
+	width: 50%;
+	float: left;
+}
+
+.products .banne_bar{
+	float: none;
+}
+
+.hr_7{
+	height: 15px;
+}
+
+/*产品分类平铺列表*/
+.product_title{
+	height: 34px;
+	border-bottom: #ccc solid 2px;
+}
+
+.product_title h3{
+	width: 180px;
+	border-bottom: #096dba solid 2px;
+	line-height: 34px;
+	height: 34px;
+	text-indent: 9px;
+}
+
+.product_list{
+	margin-bottom: 20px;
+}
+
+.item{
+	float: left;
+	width: 20%;
+	padding: 12px;
+	/*margin-bottom: 5px;*/
+}
+.img_item{
+	height: 170px;
+	text-align: center;
+}
+
+.img_item img{
+	height: 170px;
+}
+
+.item p{
+	line-height: 20px;
+}
+
+.item a{
+	color: #000;
+}
+.item a:hover{
+	text-decoration: underline;
+}
+.money{
+	color: #d4105a;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.star{
+	height: 15px;
+	width: 15px;
+	background: url(../image/icon/star.png) left top no-repeat;
+	display: inline-block;
+	margin-right: 1px;
+	/*overflow: hidden;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
