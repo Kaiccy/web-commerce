@@ -778,7 +778,149 @@
 
 
 
+/*商品详情页*/
+.greyBody{
+	background-color: #f0f0f0;
+}
 
+.userPosition{
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+.userPosition em{
+	font-style: normal;
+}
+
+.userPosition a:hover{
+	text-decoration: underline;
+}
+
+.detail{
+	background-color: #fff;
+}
+
+/*左边*/
+.detailInfo .leftArea{
+	width: 309px;
+}
+
+.detailInfo .rightArea{
+	width: 660px;
+	border-left: #ccc solid 1px;
+	padding: 10px;
+}
+
+.detailInfo {
+	border: #ccc solid 1px;
+}
+
+/*图片显示*/
+.imageBig{
+	text-align: center;
+}
+
+.imageBig img{
+	height: 340px;
+	width: 300px;
+}
+
+.imageSmall{
+	width: 265px;
+	margin: 0 auto;
+}
+
+.imageSmall li{
+	float: left;
+	margin-left: -1px;
+}
+
+.imageSmall img{
+	border: #ccc solid 1px;
+	width: 50px;
+	height: 50px;
+}
+
+.imageSmall .active{
+	border: #317ee7 solid 1px;
+	position: relative;
+}
+/*文字详情*/
+.dtlContent .detail_title{
+	font: bold 16px/22px "MicrosoftYaHei","微软雅黑";
+	padding: 13px 25px;
+}
+
+.dtlContent dl{
+	line-height: 25px;
+	margin-bottom: 5px;
+	/*line-height: 1;*/
+}
+	
+.dtlContent dl dd{
+	float: left;
+}
+
+.dtlContent dl dt{
+	float: left;
+	width: 75px;
+	color: #666;
+	text-indent: 17px;
+}
+
+.detail_money{
+	font-size: 18px;
+	color: #f30;
+	font-family: Verdana;
+	padding-top: -5px;
+}
+
+.detail_money em{
+	font-size: 12px;
+	font-style: normal;
+}
+
+.detail_address{
+	margin-top: 15px;
+	background-color: #f0f0f0;
+	padding: 5px 0;
+}
+
+.detail_address dl{
+	margin-top: 15px;
+}
+
+.detail_address dd{
+	width: 500px;
+}
+
+.haveGoods{
+	line-height: 24px;
+	padding-left: 20px;
+}
+
+.info .chooseItem{
+	background-color: #fff;
+	border: #ccc solid 1px;
+	float: left;
+	margin-left: 10px;
+	padding: 0 20px;
+}
+
+.info .chooseItem_active{
+	border-color: #317ee7;
+	color: #333;
+}
+
+.info .chooseItemSM{
+	margin-bottom: 5px;
+	padding: 0 5px;
+}
+
+.choose_more{
+	line-height: 55px;
+}
 
 
 
