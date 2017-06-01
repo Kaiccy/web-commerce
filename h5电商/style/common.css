@@ -31,6 +31,7 @@
 	height: 85px;
 	background-color: #1d7ad9;
 	/*line-height: 85px;*/
+	
 }
 
 
@@ -848,7 +849,7 @@
 }
 /*文字详情*/
 .dtlContent .detail_title{
-	font: bold 16px/22px "MicrosoftYaHei","微软雅黑";
+	font: bold 16px/22px "MicrosoftYaHei","微 软雅黑";
 	padding: 13px 25px;
 }
 
@@ -1080,23 +1081,118 @@
 
 .ad{
 	text-align: center;
-	padding: 15px 0;
+	padding: 15px 15px;
 }
 
+/*强烈推荐*/
+.info_text{
+	margin: 0 15px;
+}
 
+.text_title h3{
+	color: #0479c9;
+	border-bottom: #0479c9 solid 2px;
+	float: left;
+	margin-bottom: -1px;
+}
 
+.text_title h4{
+	float: left;
+	margin-left: 15px;
+	font-size: 12px;
+	line-height: 25px;
+	color: #656565;
+}
 
+.text_title{
+	border-bottom: #ccc solid 2px;
+}
 
+.info_text p{
+	margin: 25px 0;
+	line-height: 25px;
+	color: #656565;
+}
 
+.info_text img{
+	margin: 0 auto;
+	display: block;
+}
 
+.evaluateBox{
+	margin-top: 15px;
+	background-color: #fff;
+	border: #ccc solid 1px;
+}
 
+.evaluateBox h3{
+	color: #656565;
+	margin: 15px;
+}
 
+.evaluate{
+	margin-left: 15px;
+}
 
+.evaluate_num{
+	font-size: 48px;
+	color: orange;
+	margin-right: 25px;
+}
 
+.evaluate_num em{
+	font-style: normal;
+	font-size: 14px;
+	color: #656565;
+	margin-left: 5px;
+}
 
+.evaluate_num,.tierBox{
+	float:  left;
+}
 
+.tier{
+	background-color: #ccc;
+	display: flex;
+	flex-direction: row; 
+	width: 500px;
+	justify-content: space-around;
+}
 
+.tier li{
+	color: #fff;
+}
 
+.tierBox{
+	height: 68px;
+	display: flex;
+	flex-direction: column;; 
+	justify-content: center;
+	position: relative;
+}
+
+.tierBox p{
+	color: #656565;
+	margin-top: 5px;
+}
+/*小标签，分数*/
+.scoreTip{
+	background-color: #7f7f7f;
+	position: absolute;
+	left: 94%;
+	top: -18px;
+	text-align: center;
+	width: 25px;
+	height: 18px;
+	color: #fff;
+}
+.scoreTip i{
+	border-width: 4px;
+	border-style: solid dashed dashed dashed; 
+	border-color: #7f7f7f transparent transparent transparent;
+	width: 0;
+	height: 0;
+}
 
 
 
