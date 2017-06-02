@@ -1186,7 +1186,7 @@
 	height: 18px;
 	color: #fff;
 }
-.scoreTip i{
+.scoreTip i{ /*向下的箭头*/
 	border-width: 4px;
 	border-style: solid dashed dashed dashed; 
 	border-color: #7f7f7f transparent transparent transparent;
@@ -1194,25 +1194,77 @@
 	height: 0;
 }
 
+/*文字评价*/
+.evaluate_text{
+	margin: 10px;
+}
 
+.evaTxtHead{
+	background-color: #f2f2f2;
+}
 
+.evaluateTap li{
+	float: left;
+	margin: 0 15px;
+	/*font-weight: bold;*/
+	line-height: 32px;
+}
 
+.evaluateTap .active{
+	color: #0479ca;
+	border-bottom: #0479ca solid 2px;
+	margin-bottom: -1px;
+}
 
+/*.orderType{
+	line-height: 32px;
+}*/
 
+.orderType a{
+	line-height: 32px;
+	border: #ccc solid 1px;
+	margin-right: 15px;
+	padding: 3px 20px 5px 3px;
+	background: url(../image/icon/orderArrow.png) right center no-repeat;
+}
 
+.evaluate_cell{
+	margin-top: 20px;
+	margin-left: 20px;
+}
 
+.evaluate_cell li{
+	margin-bottom: 30px;
+}
 
+.purchaser{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 50px;
+}
 
+.purchaser_comment{
+	line-height: 35px;
+}
 
+.star_comment em{
+	font-style: normal;
+	font-weight: bold; 
+	color: #000;
+	margin-left: 10px;
+}
 
+.comment_data{
+	line-height: 32px;
+	color: #ccc;
+	font-size: 12px;
+}
 
-
-
-
-
-
-
-
-
+.evaluateBox .pages{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
 
 
