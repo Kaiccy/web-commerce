@@ -583,6 +583,7 @@
 
 
 
+
 /*商品筛选页面*/
 .vertical li{
 	float: none;
@@ -1266,5 +1267,140 @@
 	justify-content: center;
 	margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+/*购物车*/
+.shopCar_item{
+	margin-top: 20px;
+	border: #ccc solid 1px;
+}
+
+.shopCar_item .select{
+	/*margin-right: 100px;*/
+	float: left;
+}
+
+.shopCar_item .tip_title{
+	background-color: rgb(244,244,244);
+	color: gray;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.carTip_list{ 
+	padding: 25px;
+}
+
+.carTip_list span{
+	float: left;
+}
+
+.carTip_list span em{
+	color: red;
+	margin-right: 5px;
+	font-style: normal; 
+}
+
+.carTip_list input{
+	border: #ccc solid 1px;
+	margin:0 5px;
+	line-height: 20px;
+	padding-left: 5px; 
+}
+
+.carTip_list li{
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+.carTip_list .select{
+	line-height: 30px;
+	height: 30px;
+}
+
+.sureAddrsBtn{
+	background-color: rgb(29,122,217);
+	color: white;
+	outline: none;
+	border: none;
+	height: 30px;
+	width: 110px;
+	margin-left: 50px;
+	margin-bottom: 15px;
+}
+
+.payL{
+	margin-right: 20px;
+}
+
+.shopCar_item h3{
+	font-size: 14px;
+}
+
+.saveBtn{
+	background-color: rgb(29,122,217);
+	color: white;
+	outline: none;
+	border: none;
+	margin: 0 15px 15px 50px;
+	width: 55px;
+	height: 25px;
+}
+
+.cancelBtn{
+	background-color: rgb(244,244,244);
+	border: #ccc solid 1px;
+	width: 55px;
+	height: 25px;
+}
+
+/*送货清单*/
+.backCar{
+	color: rgb(29,122,217);
+	font-size: 12px;
+	float: right;
+	margin-right: 30px;
+}
+.backCar:hover{
+	text-decoration: underline;
+}
+
+.goodsInfo{
+	margin: 0 30px 30px;
+}
+.listTitle{
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+.listTitle strong{
+	display: inline-block;
+}
+.listTitle strong:first-of-type{
+	width: 450px;
+}
+.listTitle strong:nth-of-type(2){
+	width: 110px;
+}
+.listTitle strong:nth-of-type(3){
+	width: 110px;
+}
+.listTitle strong:nth-of-type(4){
+	width: 110px;
+}
+.listTitle strong:last-of-type{
+	width: 110px;
+}
+
+
+
+
 
 
