@@ -1378,6 +1378,7 @@
 .listTitle{
 	line-height: 30px;
 	margin-top: 5px;
+	border-bottom: #ccc solid 1px;
 }
 
 .listTitle strong{
@@ -1398,6 +1399,164 @@
 .listTitle strong:last-of-type{
 	width: 110px;
 }
+
+/*送货清单*/
+.listContent{
+	border-bottom: #ccc solid 1px;
+}
+.listContent div{
+	display: inline-block;
+}
+.listContent div:first-child{
+	width: 450px;
+}
+.listContent div:nth-of-type(2){
+	width: 110px;
+	margin-top: 35px;
+}
+.listContent div:nth-of-type(3){
+	width: 110px;
+	margin-top: 35px;
+}
+.listContent div:nth-of-type(4){
+	width: 110px;
+	margin-top: 35px;
+}
+.listContent div:nth-of-type(5){
+	width: 110px;
+	color: red;
+	margin-top: 35px;
+}
+
+.goodsIN{
+	position: relative;
+	float: left;
+}
+.goodsIN img{
+	width: 150px;
+	height: 160px;
+	display: inline-block;
+	float: left;
+}
+
+.imgRightDiv{
+	float: left;
+}
+.imgRightDiv p{
+	margin-top: 35px;
+	color: gray;
+	font-size: 13px;
+}
+
+.goodsInfo_bottom h4:first-child{
+	margin-top: 15px;
+}
+.goodsInfo_bottom h4:nth-last-child(2){
+	margin-top: 30px;
+	color: red;
+	font-family: "宋体";
+	font-size: 13px;
+}
+
+/*订单结算*/
+.submitBox{
+	float: right;
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.submitBox span{
+	font-size: 14px;
+	color: gray;
+}
+.submitBox .amount{
+	color: #e50007;
+	font-size: 24px;
+}
+.submitBox .submitBtn{
+	background-color: #e50007; 
+	color: #fff;
+	width: 130px;
+	height: 35px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
