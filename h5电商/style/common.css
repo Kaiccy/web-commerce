@@ -30,8 +30,6 @@
 .logoBar{
 	height: 85px;
 	background-color: #1d7ad9;
-	/*line-height: 85px;*/
-	
 }
 
 
@@ -1494,39 +1492,142 @@
 
 
 
+/*登录*/
+.login_text{
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	line-height: 80px;
+	font-family: "宋体";
+	margin-left: 20px;
+}
+
+.login_logo .comWidth{
+	width: 430px;
+}
+
+.login_mid{
+	margin-bottom: 30px;
+}
+
+.login_mid  .comWidth{
+	width: 430px;
+	border: #ccc solid 1px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.login_box{
+	margin: 15px 60px;
+}
+.login_box input[type=text]{
+	border: #ccc solid 1px;
+	width: 260px;
+	height: 30px;
+	background: url(../image/icon/xingming.png) 240px center no-repeat;
+}
+
+.in_label{
+	display: flex;
+	flex-direction: column;
+	margin-bottom:  10px;
+}
+
+.in_label label{
+	color: gray;
+	font-size: 13px;
+}
+
+.login_check{
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+.login_btn{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 260px;
+	height: 30px;
+}
+
+.login_box li:nth-of-type(5){
+	margin-top: 15px;
+}
+.login_box li:nth-of-type(5),.login_box li:nth-of-type(6){
+	color: gray;
+	font-size: 13px;
+}
+
+.login_box a:hover{
+	text-decoration: underline;
+}
+
+.free_res{
+	position: absolute;
+	bottom: -30px;
+	right: 30px;
+	background-color: rgb(125,185,84);
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	text-align-last: center;
+	line-height: 30px;
+}
 
 
 
+/*注册*/
 
+.regist_box{
+	margin: 15px auto;
+	width: 520px;
+	border: #ccc solid 1px;
+	padding: 15px 40px;
+	vertical-align: center;
+}
 
+.regist_box li{
+	line-height: 50px;
+}
+.regist_box li input{
+	margin-left: 10px;
+}
+.regist_box li span span{
+	width: 120px;
+	display: inline-block;
+	text-align: right;
+}
+.regist_box li span i{
+	font-style: normal;
+	color: red;
+	margin-right: 5px;
+}
 
+.regist_box input[type=text]{
+	border: #ccc solid 1px;
+	width: 260px;
+	height: 30px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background: url(../image/icon/xingming.png) 240px center no-repeat;
+}
 
+.regist_btn{
+	margin: 30px auto;
+	text-align: center;
+}
+.regist_btn button{
+	width: 260px;
+	height: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.protocol{
+	color: blue;
+}
+.protocol:hover{
+	text-decoration: underline;
+}
 
 
 
